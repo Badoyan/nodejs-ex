@@ -14,6 +14,7 @@ describe('Basic routes tests', function() {
         .get('/')
         .end(function(err, res) {
             res.should.have.status(200);
+			console.log("asd");
             done();
         })
 
